@@ -8,8 +8,10 @@ import warnings
 warnings.filterwarnings('ignore') 
 
 # %%
+#Load Data
 df = pd.read_csv('StudentsPerformance.csv')
 # %%
+#EDA of data
 df.sample(10)
 # %%
 list(df.columns)
@@ -21,6 +23,8 @@ df.head()
 df.dtypes
 # %%
 df.shape
+#%%
+df.nunique()
 # %%
 def bar_plot(variable):
     var = df[variable]
@@ -202,6 +206,10 @@ g.plot_marginals(sns.rugplot, height=1, color="r", alpha=.6)
 g = sns.JointGrid(data=df, x="overall", y="writing score", space=0, ratio=17)
 g.plot_joint(sns.scatterplot, color="b", alpha=.6, legend=False)
 g.plot_marginals(sns.rugplot, height=1, color="b", alpha=.6)
+# %%
+
+# %%
+
 # %%
 
 # %%
