@@ -1,10 +1,10 @@
 # Students-Performance
 This project explores different attribute that influences a student performance in mathematics, reading and writing test.\
-The project uses student performance dataset obtained from kaggle.\
+The project uses student performance dataset obtained from kaggle.
 
 # Dataset Description
 
-*This dataset has 1000 samples with 8 attributes/features, here is the list of features in this dataset:\
+*This dataset has 1000 samples with 8 attributes/features, here is the list of features in this dataset:
 
 1.**Gender**: This column categorise the students as either male or female.\
 2.**Race/Ethnicity**: This column classify the students into 5 different ethnicity, i.e group A, group B, group c, e.t.c.\
@@ -25,19 +25,43 @@ The project uses student performance dataset obtained from kaggle.\
 *Influence of race/ethnicity, parental level of education on students performance.
 
 # Number of student by gender and student performance in the test by gender.
+![Gender Frequency](Gender2.png)
+
+![Gender Distribution](Gender1.png)
+
+![Students Performance By Gender](gender3.png)
+
+![Average score in the 3 test by gender](genderscore.png)
+
+![Visual display of average score in each test by gender](Gender4.png)
+
+
 
 
 # The ethnic group with the highest number of student participation.
+![Ethnic group representation](ethnic1.png)
 
+![Distribution of student by race/ethnicity](ethnic3.png)
+
+![Student performance based on ethnicity](ethnic2.png)
 
 # Highest level of education attained by most parent.
+![Parental level of education](parent1.png)
 
+![parental level of education](parent2.png)
 
 # Relationship between lunch/student meal and student performance.
+![Quality of Food](lunch1.png)
 
+![Average performance based on food quality](lunch2.png)
+
+![Averaage score in test by meal quality](lunch3.png)
 
 # Test preparation course and student test performance
+![Student level of preparation](prep1.png)
 
+![Average Score by level of preparation](prep2.png)
 
 # Influence of race/ethnicity, parental level of education on students performance
 
+![Student performance based on race/ethnicity](race1.png)
