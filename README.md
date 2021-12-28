@@ -65,3 +65,5 @@ The project uses student performance dataset obtained from kaggle.
 # Influence of race/ethnicity, parental level of education on students performance
 
 ![Student performance based on race/ethnicity](race1.png)
+
+![student general performance by gender](level2.png)
